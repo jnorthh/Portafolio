@@ -159,7 +159,7 @@ font-family:Arial, Helvetica, sans-serif;
     position: relative;
 }
 .proyect_img{
-    width: 100%;
+   
     transition: all 500ms ease;
 }
 .proyect_wrapper::before {
