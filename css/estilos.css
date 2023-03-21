@@ -156,6 +156,7 @@ font-family:Arial, Helvetica, sans-serif;
     grid-template-columns: auto;
     justify-content: center;
     gap: 100px;
+    width: 100%;
 }
 .proyect_wrapper{
     display: flex;
@@ -163,6 +164,7 @@ font-family:Arial, Helvetica, sans-serif;
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 .proyect_img{
    width: 100%;
