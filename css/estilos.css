@@ -138,10 +138,12 @@ font-family:Arial, Helvetica, sans-serif;
 }
 #proyects{
     margin-top: 100px;
+    width: 100%;
 }
 .proyect{
     display: flex;
     justify-content: center;
+  max-width: 700px;
 }
 .proyect_tittle{
     display: flex;
@@ -179,6 +181,7 @@ font-family:Arial, Helvetica, sans-serif;
     opacity: 0;
     transition: opacity 450ms ease;
     z-index: 2;
+    border-radius: 20px;
 }
 .proyect:hover .proyect_wrapper::before {
     opacity: 0.7;
@@ -186,6 +189,7 @@ font-family:Arial, Helvetica, sans-serif;
 .proyect:hover .proyect_img {
     transform: scale(1.07);
     filter: blur(5px);
+    border-radius: 20px;
 }
 .proyect:hover .project_description {
     opacity: 1;
