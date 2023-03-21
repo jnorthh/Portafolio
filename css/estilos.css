@@ -86,6 +86,7 @@ font-family:Arial, Helvetica, sans-serif;
     display: flex;
     gap: 20px;
     font-size: 22px; 
+    justify-content: center;
 }
 .links_profile_1{
    color: black;
@@ -265,3 +266,70 @@ footer{
     transform: translateX(60px);
     opacity: 1;
 }
+
+@media (max-width: 768px){
+.img-undraw{
+    width: 650px;
+}
+}
+@media (max-width: 428px){
+    .img-undraw{
+        width: 350px;
+    }
+    .container1{
+        width: 100%;
+        padding: 10px 0px 0px 0px; 
+    }
+    .anchor_name{
+        font-size: 16px;
+        padding-left: 8px;
+    }
+    .btn_contact{
+        width: 50px;
+        font-size: 12px;
+        padding: 6px;
+    }
+    .p_body-about{
+        font-size: 14px;
+        width: 350px;
+    }
+    .sub2{
+        width: 100%;
+    }
+    .links_profile{
+   padding: 10px 0px 0px 0px;
+
+    }
+    .sub1_ul{
+        font-size: 14px;
+        padding-right: 8px;
+    }
+    .container_languages{
+        width: 100%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+       row-gap: 40px;
+    }
+    .language_img{
+        height: 80px;
+    }
+    .proyect_tittle{
+        font-size: 17px;
+    }
+    .proyect_img{
+        height: 200px;
+    }
+    .project_description--title{
+        font-size: 18px;
+    }
+    .project_description--sub-title{
+        font-size: 13px;
+    }
+    .project_description--para{
+        font-size: 10px;
+     
+    }
+    .project_description{
+        left: 20px;
+    }
+    }
